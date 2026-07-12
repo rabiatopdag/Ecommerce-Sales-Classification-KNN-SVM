@@ -1,15 +1,69 @@
-# E-Commerce Sales Classification with k-NN and SVM
+# 🛒 Ecommerce Sales Classification using KNN & SVM
 
-This project implements a machine learning pipeline to classify e-commerce orders into high and low-revenue categories using customer purchasing attributes.
+## 📌 Project Overview
 
-## Features Used
-* Quantity
-* Unit Price
-* Discount
-* Delivery Days
+This project predicts customer purchasing behavior using Machine Learning classification algorithms.
 
-## Models Evaluated
-* **k-NN (k-Nearest Neighbors)**
-* **SVM (Support Vector Machine)**
+The models used are:
 
-Both models achieved high accuracy scores due to the strong logical correlation between the input features (Quantity & Unit Price) and the target revenue threshold.
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+
+The goal is to compare the performance of both algorithms on an e-commerce dataset.
+
+---
+
+## 📂 Dataset
+
+The dataset contains customer information such as:
+
+- Age
+- Gender
+- Annual Income
+- Spending Score
+- Purchase Category
+
+---
+
+## 🛠 Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+---
+
+## 📊 Models
+
+- KNN
+- SVM
+
+---
+
+## 📈 Evaluation Metrics
+
+- Accuracy
+- Confusion Matrix
+- Classification Report
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/rabiatopdag/Ecommerce-Sales-Classification-KNN-SVM.git
+
+cd Ecommerce-Sales-Classification-KNN-SVM
+
+pip install -r requirements.txt
+
+jupyter notebook
+```
+
+---
+
+## 👩‍💻 Author
+
+Rabia Topdağ
